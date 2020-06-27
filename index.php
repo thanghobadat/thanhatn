@@ -59,11 +59,12 @@
                 </form>
                 <ul class="nav navbar-nav navbar-right ml-auto">			
                     <li class="nav-item">
-                        <a href="ConnectToDB.php">Insert</a>
+                        <a href="InsertData.php">Insert</a>
                     </li>
                     <li class="nav-item">
-                        <a href="ConnectToDB.php" data-toggle="dropdown" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1">View</a>
+                        <a href="ConnectToDB.php">View</a>
                     </li>
+            
                 </ul>
             </div>
         </nav>
