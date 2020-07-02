@@ -42,7 +42,7 @@ echo '<p>product information:</p>';
 
 ?>
 <div id="container">
-<table class="table table-bordered table-condensed">
+<table class="table table-bordered table-condensed" border="1">
     <thead>
       <tr>
         <th>id</th>
@@ -70,5 +70,6 @@ echo '<p>product information:</p>';
     </tbody>
   </table>
 </div>
+
 </body>
 </html>
