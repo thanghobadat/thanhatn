@@ -41,8 +41,10 @@ $resultSet = $stmt->fetchAll();
 echo '<p>product information:</p>';
 
 ?>
-<div id="container">
+<div id="container" text-alight="center">
+<h1>Product</h1>    
 <table class="table table-bordered table-condensed" border="1">
+    
     <thead>
       <tr>
         <th>id</th>
