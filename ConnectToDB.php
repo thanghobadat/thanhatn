@@ -33,7 +33,7 @@
             <!-- Collection of nav links, forms, and other content for toggling -->
             <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Introduce</a></li>			
                     <li class="nav-item dropdown">
                         <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Sale<b class="caret"></b></a>
