@@ -2,22 +2,16 @@
 <html>
 <body>
 
-<h1>DATABASE CONNECTION</h1>
-
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud Computing class 0705!";
 ?>
 
 <?php
 
 
 if (empty(getenv("DATABASE_URL"))){
-    echo '<p>The DB does not exist</p>';
     $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
 }  else {
-     echo '<p>The DB exists</p>';
-     echo getenv("dbname");
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
           "host=
@@ -38,11 +32,10 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>product information:</p>';
 
 ?>
 <div id="container" text-alight="center">
-<h1>Product</h1>    
+<h1>Product Information</h1>    
 <table class="table table-bordered table-condensed" border="1">
     
     <thead>
